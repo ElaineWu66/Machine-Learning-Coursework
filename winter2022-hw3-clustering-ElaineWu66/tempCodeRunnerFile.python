@@ -1,0 +1,23 @@
+from matplotlib.pyplot import axes
+import numpy as np
+
+'''
+array = np.ones(shape = (5,3))
+predictions = np.zeros(shape = (5,3))
+print(predictions)
+array2 = np.append(array,predictions,axis=1)
+#print(array2)
+sub = predictions[[1,2],:]
+#print(type(sub))
+
+array3 = predictions[1]
+print(array3)
+print(type(array3))
+array3[-1] = 1
+print(array3)
+print(np.shape(array3)[0])
+'''
+
+array1 = np.array([1,2,3])
+array2 = array1[:-1]
+print(array1)
